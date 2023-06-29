@@ -5,7 +5,7 @@ let meteo = async () => {
   const response = await fetch(
     // url de l'API en entrant les coordonné latitude et longitude pour choisir la ville et entrée la APIKey
 
-    `https://api.openweathermap.org/data/2.5/weather?q=paris&appid=ac1c129ec60cf8ea6784f12adee4b904&units=metric&lang=fr`
+    `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=ac1c129ec60cf8ea6784f12adee4b904&units=metric&lang=fr`
   );
   //   console.log(response);
 
