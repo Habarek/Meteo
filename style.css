@@ -1,0 +1,62 @@
+body {
+  font-family: "Parisine Regular";
+  background-color: #ffcb03;
+}
+.container {
+  font-family: sans-serif;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 4px solid #ce0033;
+  border-radius: 15px;
+  box-shadow: 10px 10px 4px rgba(244, 6, 6, 0.892);
+  padding: 20px;
+}
+
+header img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 35px;
+  height: 35px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-style: italic;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(59, 123, 234);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bienvenue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Import de la police de caractère -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./font/Parisine Bold Italic/Parisine Bold Italic.otf"
+    />
+    <link rel="stylesheet" href="./font/Parisine Bold/Parisine Bold.otf" />
+    <link
+      rel="stylesheet"
+      href="./font/Parisine Regular/Parisine Regular.otf"
+    />
+
+    <!-- Importation des icônes -->
+    <script
+      src="https://kit.fontawesome.com/30acf960a9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/soleil.svg" type="image/x-icon" />
+    <title>projet meteo</title>
+
+    <!-- Importation du code javascript -->
+    <script src="meteo.js"></script>
+    <!-- Inportation du fichier CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./img/laPoste.svg" alt="logo laposte" />
+        <h1>PROJET METEO</h1>
+        <img src="./img/logoSimplon.png" alt="" />
+      </header>
+      <main>
+        <div class="bienvenue">
+          <i class="fa-regular fa-sun fa-bounce" style="color: #ffcb03"></i>
+          <h2>BIENVENUE!</h2>
+          <i class="fa-regular fa-sun fa-bounce" style="color: #ce0033"></i>
+        </div>
+
+        <div class="temp" id="temperature"></div>
+
+        <div class="icon">
+          <img id="weather-icon" alt="Weather Icon" />
+        </div>
+
+        <h2>NOUS VOUS SOUHAITONS UN AGREABLE TRAJET</h2>
+        <div class="icon"></div>
+
+        <!-- <p>
+          Pour amélioré l'app : sachan que c'est pour les voyageurs - ajouter
+          des informations sur le traffic des transports, -rajouter la date avec le nom du
+          saint du jour avec sa petite anecdocte -de la publicité
+        </p> -->
+      </main>
+      <footer>
+        <p>Make with 💜</p>
+      </footer>
+    </div>
+  </body>
+</html>
